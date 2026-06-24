@@ -868,10 +868,11 @@ function TrackerTab({ user }) {
           LOG A RUN
         </div>
         <div style={{ display:'flex', gap:10, marginBottom:10 }}>
-          <div style={{ flex:'0 0 58%' }}>
+          <div style={{ flex:'0 0 58%', minWidth:0, overflow:'hidden' }}>
             <Label>Date</Label>
-            <Input type="date" value={form.date} onChange={e => setForm(f=>({...f,date:e.target.value}))} />
-          </div>
+            <Input type="date" value={form.date} onChange={e => setForm(f=>({...f,date:e.target.value}))}
+             style={{ width:'100%', maxWidth:'100%', appearance:'none', WebkitAppearance:'none' }} />
+</div>
           <div style={{ flex:'1 1 auto' }}>
             <Label>Miles</Label>
             <Input type="number" step="0.1" placeholder="0.0" value={form.miles}
