@@ -967,13 +967,11 @@ function TrackerTab({ user }) {
   )
 }
 
-function Label({ children }) {
-  return <div style={{ fontFamily:'var(--font-mono)', fontSize:10, color:'var(--faint)', marginBottom:5, letterSpacing:'0.08em' }}>{children}</div>
-}
 function Input({ type='text', ...props }) {
   return (
     <input type={type} {...props} style={{
-      width:'100%', background:'var(--bg)', color:'var(--text)',
+      width:'100%', minWidth:0, boxSizing:'border-box',
+      background:'var(--bg)', color:'var(--text)',
       border:'1px solid var(--border2)', borderRadius:6,
       padding:'9px 10px', fontSize:16, fontFamily:'var(--font-sans)', outline:'none',
     }} />
