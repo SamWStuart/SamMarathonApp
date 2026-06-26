@@ -52,7 +52,7 @@ const PHASES = [
         {day:'Wed', type:'Easy Run',    detail:'4 miles easy',                         miles:4},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                      miles:0},
         {day:'Fri', type:'Rest',        detail:'Full rest',                            miles:0},
-        {day:'Sat', type:'Easy Run',    detail:'3 miles easy',                         miles:3},
+        {day:'Sat', type:'Easy+Strength', detail:'3 miles easy + full 8-exercise circuit, 2 sets', miles:3},
         {day:'Sun', type:'Rest',        detail:'Full rest + extra stretching',         miles:0},
       ]},
     ],
@@ -73,7 +73,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'25 min: focus on glutes & hips',        miles:0},
         {day:'Wed', type:'Easy Run',    detail:'5 miles easy + 4 strides',              miles:5},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                       miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'6 miles easy',                          miles:6},
+        {day:'Fri', type:'Easy+Strength', detail:'6 miles easy + full 8-exercise circuit, 2 sets', miles:6},
         {day:'Sat', type:'Bike',        detail:'60 min easy ride',                      miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                             miles:0},
       ]},
@@ -82,7 +82,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'25 min strength',                       miles:0},
         {day:'Wed', type:'Easy Run',    detail:'5 miles easy + 4 strides',              miles:5},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                       miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'7 miles easy',                          miles:7},
+        {day:'Fri', type:'Easy+Strength',    detail:'7 miles easy + full 8-exercise circuit, 2 sets', miles:7},
         {day:'Sat', type:'Bike',        detail:'60 min easy ride',                      miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                             miles:0},
       ]},
@@ -91,7 +91,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'25 min: single-leg work, core',         miles:0},
         {day:'Wed', type:'Easy Run',    detail:'6 miles easy',                          miles:6},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                       miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'7 miles easy + 4 strides',              miles:7},
+        {day:'Fri', type:'Easy+Strength', detail:'7 miles easy + 4 strides + full 8-exercise circuit, 2 sets', miles:7},
         {day:'Sat', type:'Bike',        detail:'60 min bike or rest',                   miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                             miles:0},
       ]},
@@ -100,7 +100,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'20 min (lighter week)',                 miles:0},
         {day:'Wed', type:'Easy Run',    detail:'5 miles easy',                          miles:5},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                       miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'4 miles easy',                          miles:4},
+        {day:'Fri', type:'Easy+Strength', detail:'4 miles easy + full 8-exercise circuit, 2 sets', miles:4},
         {day:'Sat', type:'Bike',        detail:'Rest or 45 min easy ride',              miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest + foam rolling',              miles:0},
       ]},
@@ -122,7 +122,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'30 min: focus on posterior chain',       miles:0},
         {day:'Wed', type:'MP Workout',  detail:'8 mi: 2 easy + 4 at MP (~8:45) + 2 easy', miles:8},
         {day:'Thu', type:'Soccer',      detail:'Thursday league — easy effort',          miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'5 miles easy',                           miles:5},
+        {day:'Fri', type:'Easy+Strength', detail:'5 miles easy + full 8-exercise circuit, 2 sets', miles:5},
         {day:'Sat', type:'Bike',        detail:'60–75 min easy ride',                    miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                              miles:0},
       ]},
@@ -131,7 +131,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'30 min strength',                        miles:0},
         {day:'Wed', type:'MP Workout',  detail:'9 mi: 2 easy + 5 at MP + 2 easy',       miles:9},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                        miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'6 miles easy',                           miles:6},
+        {day:'Fri', type:'Easy+Strength', detail:'6 miles easy + full 8-exercise circuit, 2 sets', miles:6},
         {day:'Sat', type:'Bike',        detail:'75 min easy ride',                       miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                              miles:0},
       ]},
@@ -140,7 +140,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'30 min: single-leg, core stability',      miles:0},
         {day:'Wed', type:'MP Workout',  detail:'10 mi: 2 easy + 6 at MP + 2 easy',       miles:10},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                         miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'7 miles easy',                            miles:7},
+        {day:'Fri', type:'Easy+Strength', detail:'7 miles easy + full 8-exercise circuit, 2 sets', miles:7},
         {day:'Sat', type:'Bike',        detail:'75 min ride',                             miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                               miles:0},
       ]},
@@ -149,7 +149,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'20 min (lighter)',                        miles:0},
         {day:'Wed', type:'Easy Run',    detail:'6 miles easy + strides',                  miles:6},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                         miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'5 miles easy',                            miles:5},
+        {day:'Fri', type:'Easy+Strength', detail:'5 miles easy + full 8-exercise circuit, 2 sets', miles:5},
         {day:'Sat', type:'Bike',        detail:'Rest or easy 45 min ride',                miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest + foam rolling',                miles:0},
       ]},
@@ -171,7 +171,7 @@ const PHASES = [
         {day:'Tue', type:'Strength+Easy',detail:'30 min strength + 6 miles easy (fatigue run)', miles:6},
         {day:'Wed', type:'MP Workout',  detail:'10 mi: 1 easy + 7 at MP + 2 easy',       miles:10},
         {day:'Thu', type:'Soccer',      detail:'Thursday league — easy effort',           miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'7 miles easy',                            miles:7},
+        {day:'Fri', type:'Easy+Strength', detail:'7 miles easy + full 8-exercise circuit, 2 sets', miles:7},
         {day:'Sat', type:'Bike',        detail:'75–90 min easy ride',                     miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                               miles:0},
       ]},
@@ -180,7 +180,7 @@ const PHASES = [
         {day:'Tue', type:'Easy+Strength',detail:'7 miles easy + 30 min strength',         miles:7},
         {day:'Wed', type:'MP Workout',  detail:'11 mi: 1 easy + 8 at MP + 2 easy',        miles:11},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                          miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'8 miles easy',                             miles:8},
+        {day:'Fri', type:'Easy+Strength', detail:'8 miles easy + full 8-exercise circuit, 2 sets', miles:8},
         {day:'Sat', type:'Bike',        detail:'60 min bike or rest',                      miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                miles:0},
       ]},
@@ -189,7 +189,7 @@ const PHASES = [
         {day:'Tue', type:'Easy+Strength',detail:'7 miles easy + 30 min strength',          miles:7},
         {day:'Wed', type:'MP Workout',  detail:'12 mi: 1 easy + 9 at MP + 2 easy',         miles:12},
         {day:'Thu', type:'Soccer',      detail:'Thursday league — moderate',               miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'8 miles easy',                             miles:8},
+        {day:'Fri', type:'Easy+Strength', detail:'8 miles easy + full 8-exercise circuit, 2 sets', miles:8},
         {day:'Sat', type:'Bike',        detail:'75 min easy ride',                         miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                miles:0},
       ]},
@@ -198,7 +198,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'25 min (lighter)',                         miles:0},
         {day:'Wed', type:'Easy Run',    detail:'7 miles easy + strides',                   miles:7},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                          miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'6 miles easy',                             miles:6},
+        {day:'Fri', type:'Easy+Strength', detail:'6 miles easy + full 8-exercise circuit, 2 sets', miles:6},
         {day:'Sat', type:'Bike',        detail:'Rest or 45 min ride',                      miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                miles:0},
       ]},
@@ -220,7 +220,7 @@ const PHASES = [
         {day:'Tue', type:'Easy+Strength',detail:'6 miles easy + 30 min strength',         miles:6},
         {day:'Wed', type:'MP Workout',  detail:'11 mi: 1 easy + 8 at MP + 2 easy',        miles:11},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                          miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'7 miles easy',                             miles:7},
+        {day:'Fri', type:'Easy+Strength', detail:'7 miles easy + full 8-exercise circuit, 2 sets', miles:7},
         {day:'Sat', type:'Bike',        detail:'60 min easy ride',                         miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                miles:0},
       ]},
@@ -229,7 +229,7 @@ const PHASES = [
         {day:'Tue', type:'Easy+Strength',detail:'7 miles easy + 30 min strength',          miles:7},
         {day:'Wed', type:'MP Workout',  detail:'12 mi: 1 easy + 9 at MP + 2 easy',         miles:12},
         {day:'Thu', type:'Soccer',      detail:'Thursday league',                           miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'8 miles easy',                              miles:8},
+        {day:'Fri', type:'Easy+Strength', detail:'8 miles easy + full 8-exercise circuit, 2 sets', miles:8},
         {day:'Sat', type:'Bike',        detail:'75 min ride',                               miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                 miles:0},
       ]},
@@ -238,7 +238,7 @@ const PHASES = [
         {day:'Tue', type:'Easy+Strength',detail:'7 miles easy + 30 min strength (last hard session)', miles:7},
         {day:'Wed', type:'MP Workout',  detail:'12 mi: 1 easy + 9 at MP + 2 easy',          miles:12},
         {day:'Thu', type:'Soccer',      detail:'Thursday league — EASY ONLY',               miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'8 miles easy',                               miles:8},
+        {day:'Fri', type:'Easy+Strength', detail:'8 miles easy + full 8-exercise circuit, 2 sets', miles:8},
         {day:'Sat', type:'Rest',        detail:"Full rest — you've done the work",           miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                   miles:0},
       ]},
@@ -247,7 +247,7 @@ const PHASES = [
         {day:'Tue', type:'Strength',    detail:'20 min light maintenance strength',          miles:0},
         {day:'Wed', type:'MP Workout',  detail:'9 mi: 1 easy + 6 at MP + 2 easy',           miles:9},
         {day:'Thu', type:'Soccer',      detail:'Thursday league — moderate',                 miles:0},
-        {day:'Fri', type:'Easy Run',    detail:'5 miles easy',                               miles:5},
+        {day:'Fri', type:'Easy+Strength', detail:'5 miles easy + full 8-exercise circuit, 2 sets', miles:5},
         {day:'Sat', type:'Bike',        detail:'Easy 45 min bike or rest',                   miles:0},
         {day:'Sun', type:'Rest',        detail:'Full rest',                                   miles:0},
       ]},
@@ -504,6 +504,26 @@ function weekKey(dateStr) {
   return monday.toISOString().slice(0, 10)
 }
 
+// Anchor: Week 1 starts Monday, June 1, 2026
+const PLAN_START = new Date('2026-06-01T12:00:00')
+
+function getCurrentWeekNumber() {
+  const now = new Date()
+  const diffMs = now - PLAN_START
+  const diffDays = diffMs / (1000 * 60 * 60 * 24)
+  const weekNum = Math.floor(diffDays / 7) + 1
+  return weekNum
+}
+
+function getCurrentPhaseIndex() {
+  const weekNum = getCurrentWeekNumber()
+  for (let i = 0; i < PHASES.length; i++) {
+    const weekNums = PHASES[i].weeks.map(w => w.num)
+    if (weekNums.includes(weekNum)) return i
+  }
+  if (weekNum < 1) return 0
+  return PHASES.length - 1
+}
 
 const LEG_ROUTINE = [
   {
@@ -644,9 +664,16 @@ function AuthGate({ children }) {
 // ─── Plan Tab ─────────────────────────────────────────────────────────────────
 
 function PlanTab() {
-  const [phaseIdx, setPhaseIdx] = useState(0)
+  const [phaseIdx, setPhaseIdx] = useState(() => {
+    const saved = localStorage.getItem('lastPhaseIdx')
+    return saved !== null ? parseInt(saved, 10) : getCurrentPhaseIndex()
+  })
   const [openWeek, setOpenWeek] = useState(null)
   const phase = PHASES[phaseIdx]
+
+  useEffect(() => {
+    localStorage.setItem('lastPhaseIdx', phaseIdx)
+  }, [phaseIdx])
 
   return (
     <div style={{ padding: '0 0 80px' }}>
